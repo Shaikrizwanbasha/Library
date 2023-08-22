@@ -1,13 +1,12 @@
-package project;
-
-	import java.util.ArrayList;
-	import java.util.List;
-
-public class Library  {
+package sample1;
+import java.util.ArrayList;
+import java.util.List;
+public class Library {
+	
 	    private List<Book> books;
 
 	    public Library() {
-	        books = new ArrayList<>();
+	        books = new ArrayList<Book>();
 	    }
 
 	    public void addBook(Book book) {
@@ -43,5 +42,4 @@ public class Library  {
 	           System.out.println("Book with ID " + bookId + " not found.");
 	    }
 	}
-
 
